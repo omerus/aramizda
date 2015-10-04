@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&subset=latin-ext);
+body{
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #393939;
+  background: #0264a5;
+}
+a{
+  color: #393939;
+}
+p{
+  padding: 10px;
+  text-align: justify;
+  background: #fff;
+}
+.box p{
+  margin: 5px;
+  padding: 10px;
+  text-align: justify;
+  background: #fff;
+}
+.resim{
+  width: 100%;
+  border-bottom: 2px solid #00599b;
+}
+.icerik{
+  background: #fff;
+}
+h1{
+  padding-left: 10px;
+  color: #00599b;
+}
+.menubutton{
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  
+}

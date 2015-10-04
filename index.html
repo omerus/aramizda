@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Aramızda</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/grid100.css" />
+  <!-- scripts at bottom of page -->
+</head>
+<body>
+<div class="container" style="padding:5px 5px 0px 5px;"><img src="img/baslik.jpg" class="resim"></div>
+<div class="container" id="content">
+
+<a href="detay.html">
+  <div class="box col-lg-25 col-md-50 col-sm-50 col-xs-50">
+    <p>
+    <img src="img/fo-2.jpg" class="resim">
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+    </p>
+  </div>
+</a>
+  <div class="box col-lg-25 col-md-50 col-sm-50 col-xs-50">
+    <p>
+    <img src="img/fo-1.jpg" class="resim">
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+    </p>
+  </div>
+
+  <div class="box col-lg-25 col-md-50 col-sm-50 col-xs-50">
+    <p>
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+    </p>
+  </div>
+
+  <div class="box col-lg-25 col-md-50 col-sm-50 col-xs-50">
+    <p>
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+    </p>
+  </div>
+
+
+</div> <!-- #container -->
+
+<script src="js/jquery-1.6.1.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script>
+  $(window).load(function(){
+    $portfolio = $('#content');
+    $portfolio.isotope({
+      itemSelector : '.box',
+    });
+  });
+</script>
+
+</body>
+</html>
