@@ -7,44 +7,158 @@
   <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/grid100.css" />
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/icons.css" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <script src="js/modernizr.custom.js"></script>
   <!-- scripts at bottom of page -->
 </head>
 <body>
-<div class="container" style="padding:5px 5px 0px 5px;"><img src="img/baslik.jpg" class="resim"></div>
+<div class="mp-pusher" id="mp-pusher">
+
+        <!-- mp-menu -->
+        <nav id="mp-menu" class="mp-menu">
+          <div class="mp-level">
+            <h2 class="icon icon-world">MENU</h2>
+            <ul>
+            <li><a class="icon icon-world" href="index.html">Anasayfa</a></li>
+              <li class="icon icon-arrow-left">
+                <a class="icon icon-world" href="#">İçerik</a>
+                <div class="mp-level">
+                  <h2 class="icon icon-world">İçerik</h2>
+                  <ul>
+                    <li>
+                      <a class="icon icon-world" href="1.html">Önsöz</a>
+                    </li>
+                    <li>
+                      <a class="icon icon-world" href="3.html">Ford'dan cenevre'de performans şov</a>
+                    </li>
+                    <li>
+                      <a class="icon icon-world" href="4.html">Yeni MONDEO lansmanları hız kesmeden devam ediyor</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+             
+            </ul>
+          </div>
+        </nav>
+        <!-- /mp-menu -->
+        <div class="scroller"><!-- this is for emulating position fixed of the nav -->
+          <div class="scroller-inner">
+          <div class="container" style="padding:5px 5px 0px 5px;"><img src="img/baslik.jpg" class="resim"></div>
 <div class="container" id="content">
 
-<a href="detay.html">
+<a href="1.html" >
   <div class="box col-lg-25 col-md-50 col-sm-50 col-xs-50">
-    <p>
-    <img src="img/fo-2.jpg" class="resim">
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
-    </p>
+    <div class="p">
+    <img src="img/onsoz.jpg" class="resim">
+    <div class="onsoz">
+    <div class="text">
+		ÖNSÖZ
+	</div>
+	</div>
+    <h2 class="h2mg">İz Bırakıyoruz</h2>
+    </div>
   </div>
 </a>
+<a href="2.html" >
   <div class="box col-lg-25 col-md-50 col-sm-50 col-xs-50">
-    <p>
-    <img src="img/fo-1.jpg" class="resim">
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
-    </p>
+    <div class="p">
+    <img src="img/reklam1.jpg" class="resim">
+    <div class="reklam">
+    <div class="text">
+		REKLAM
+	</div>
+	</div>
+    </div>
   </div>
+</a>
+<a href="3.html" >
+  <div class="box col-lg-25 col-md-50 col-sm-50 col-xs-50">
+    <div class="p">
+    <img src="img/cenevre.jpg" class="resim">
+    <h2 class="h2mg" style="margin-bottom:5px;">Ford'dan Cenevre'de performans şov</h2>
+    Ford’un süperspor otomobil
+efsanesi Ford GT Cenevre
+Otomobil Fuarı’nda
+Avrupa prömiyerini
+gerçekleştiriyor.
+    </div>
+  </div>
+</a>
+<a href="4.html" >
+  <div class="box col-lg-25 col-md-50 col-sm-50 col-xs-50">
+    <div class="p">
+    <img src="img/mondeo.jpg" class="resim">
+    <h2 class="h2mg" style="margin-bottom:5px;">Yeni MONDEO lansmanları hız kesmeden devam ediyor</h2>
+Yeni Mondeo’nun 5-6 Mart tarihleri arasında İstanbul Green Park Pendik Otel’de
+lansmanı gerçekleştirildi. Yeni Mondeo olağanüstü performansı ve
+ileri teknolojisi katılımcılardan tam puan aldı.
+    </div>
+  </div>
+</a>
+<a href="4.html" >
+  <div class="box col-lg-25 col-md-50 col-sm-50 col-xs-50">
+    <div class="p">
+    <img src="img/mondeo.jpg" class="resim">
+    <h2 class="h2mg" style="margin-bottom:5px;">Yeni MONDEO lansmanları hız kesmeden devam ediyor</h2>
+Yeni Mondeo’nun 5-6 Mart tarihleri arasında İstanbul Green Park Pendik Otel’de
+lansmanı gerçekleştirildi. Yeni Mondeo olağanüstü performansı ve
+ileri teknolojisi katılımcılardan tam puan aldı.
+    </div>
+  </div>
+</a>
+<a href="1.html" >
+  <div class="box col-lg-25 col-md-50 col-sm-50 col-xs-50">
+    <div class="p">
+    <img src="img/onsoz.jpg" class="resim">
+    <div class="onsoz">
+    <div class="text">
+		ÖNSÖZ
+	</div>
+	</div>
+    <h2 class="h2mg">İz Bırakıyoruz</h2>
+    </div>
+  </div>
+</a>
 
+<a href="3.html" >
   <div class="box col-lg-25 col-md-50 col-sm-50 col-xs-50">
-    <p>
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
-    </p>
+    <div class="p">
+    <img src="img/cenevre.jpg" class="resim">
+    <h2 class="h2mg" style="margin-bottom:5px;">Ford'dan Cenevre'de performans şov</h2>
+    Ford’un süperspor otomobil
+efsanesi Ford GT Cenevre
+Otomobil Fuarı’nda
+Avrupa prömiyerini
+gerçekleştiriyor.
+    </div>
   </div>
+</a>
+<a href="2.html" >
+  <div class="box col-lg-25 col-md-50 col-sm-50 col-xs-50">
+    <div class="p">
+    <img src="img/reklam1.jpg" class="resim">
+    <div class="reklam">
+    <div class="text">
+		REKLAM
+	</div>
+	</div>
+    </div>
+  </div>
+</a>
 
-  <div class="box col-lg-25 col-md-50 col-sm-50 col-xs-50">
-    <p>
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
-    </p>
-  </div>
 
 
 </div> <!-- #container -->
-
-<script src="js/jquery-1.6.1.min.js"></script>
+        </div>
+        </div>
+      </div><!-- /pusher -->
+<a href="#" id="trigger"><div class="menubutton"></div></a>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/mlpushmenu.js"></script>
 <script src="js/isotope.pkgd.min.js"></script>
 <script>
   $(window).load(function(){
@@ -54,6 +168,8 @@
     });
   });
 </script>
-
+<script>
+new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ) );
+</script>
 </body>
 </html>

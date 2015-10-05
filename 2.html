@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Aramızda</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/grid100.css" />
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/icons.css" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <script src="js/modernizr.custom.js"></script>
+  <!-- scripts at bottom of page -->
+</head>
+<body>
+<div class="mp-pusher" id="mp-pusher">
+
+        <!-- mp-menu -->
+        <nav id="mp-menu" class="mp-menu">
+          <div class="mp-level">
+            <h2 class="icon icon-world">MENU</h2>
+            <ul>
+            <li><a class="icon icon-world" href="index.html">Anasayfa</a></li>
+              <li class="icon icon-arrow-left">
+                <a class="icon icon-world" href="#">İçerik</a>
+                <div class="mp-level">
+                  <h2 class="icon icon-world">İçerik</h2>
+                  <ul>
+                    <li>
+                      <a class="icon icon-world" href="1.html">Önsöz</a>
+                    </li>
+                    <li>
+                      <a class="icon icon-world" href="3.html">Ford'dan cenevre'de performans şov</a>
+                    </li>
+                    <li>
+                      <a class="icon icon-world" href="4.html">Yeni MONDEO lansmanları hız kesmeden devam ediyor</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+             
+            </ul>
+          </div>
+        </nav>
+        <!-- /mp-menu -->
+        <div class="scroller"><!-- this is for emulating position fixed of the nav -->
+          <div class="scroller-inner">
+          <div class="container" style="padding:5px 5px 0px 5px;"><img src="img/baslik.jpg" class="resim"></div>
+          <div class="container" style="padding:5px 5px 0px 5px;" id="content">
+
+            <div class="col-lg-100 col-md-100 col-sm-100 col-xs-100 icerik">
+            <div class="p">
+              <img src="img/reklam1.jpg" class="resim">
+            </div>
+            </div>
+          </div> <!-- #container -->
+        </div>
+        </div>
+      </div><!-- /pusher -->
+<a href="#" id="trigger"><div class="menubutton"></div></a>
+<a href="index.html"><div class="geributton"></div></a>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/mlpushmenu.js"></script>
+<script>
+new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ) );
+</script>
+</body>
+</html>

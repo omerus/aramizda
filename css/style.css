@@ -4,12 +4,19 @@ body{
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: #393939;
-  background: #0264a5;
+  background: #00599b;
 }
 a{
   color: #393939;
 }
 p{
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+  background: #fff;
+}
+.p{
+  margin: 5px;
   padding: 10px;
   text-align: justify;
   background: #fff;
@@ -27,23 +34,61 @@ p{
 .icerik{
   background: #fff;
 }
+.icerik h2{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.icerik h3{
+  padding-left: 10px;
+  padding-right: 10px;
+}
 h1{
   padding-left: 10px;
-  color: #00599b;
+  color: #333333;
+}
+h2{
+  color: #333333;
+  text-align: left;
 }
 .menubutton{
   position: fixed;
-  right: 10px;
-  bottom: 10px;
-  width: 123px;
-  height: 49px;
+  right: 0px;
+  bottom: 0px;
+  width: 120px;
+  height: 61px;
   background: url(../img/menu.png);
+  background-size: contain;
 }
 .geributton{
   position: fixed;
-  left: 10px;
-  bottom: 10px;
-  width: 123px;
-  height: 49px;
+  left: 0px;
+  bottom: 0px;
+  width: 120px;
+  height: 61px;
   background: url(../img/geri.png);
+  background-size: contain;
+}
+
+.onsoz{
+  position: absolute; 
+  background: rgba(0,0,0,0.60); 
+  color: white; 
+  bottom: 54px;
+  font-size: 16px;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+}
+.reklam{
+  position: absolute; 
+  background: rgba(0,0,0,0.60); 
+  color: white; 
+  bottom: 21px;
+  font-size: 16px;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+}
+.text{
+  padding: 10px 10px;
+}
+.h2mg{
+  margin: 5px 0px 0px 0px;
+
 }
