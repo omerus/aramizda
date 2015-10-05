@@ -53,7 +53,7 @@ h2{
 .menubutton{
   position: fixed;
   right: 0px;
-  bottom: 0px;
+  bottom: -2px;
   width: 120px;
   height: 61px;
   background: url(../img/menu.png);
@@ -62,7 +62,7 @@ h2{
 .geributton{
   position: fixed;
   left: 0px;
-  bottom: 0px;
+  bottom: -2px;
   width: 120px;
   height: 61px;
   background: url(../img/geri.png);
