@@ -1,7 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto&subset=latin-ext);
 body{
   margin: 0px;
-  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: #393939;
   background: #00599b;
@@ -10,8 +8,8 @@ a{
   color: #393939;
 }
 p{
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   text-align: justify;
   background: #fff;
 }
@@ -33,17 +31,18 @@ p{
 }
 .icerik{
   background: #fff;
+  padding-bottom: 100px;
 }
 .icerik h2{
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .icerik h3{
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 h1{
-  padding-left: 10px;
+  padding-left: 15px;
   color: #333333;
 }
 h2{
@@ -73,7 +72,7 @@ h2{
   position: absolute; 
   background: rgba(0,0,0,0.60); 
   color: white; 
-  bottom: 54px;
+  bottom: 49px;
   font-size: 16px;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
 }
@@ -81,7 +80,7 @@ h2{
   position: absolute; 
   background: rgba(0,0,0,0.60); 
   color: white; 
-  bottom: 21px;
+  bottom: 20px;
   font-size: 16px;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
 }
@@ -94,7 +93,4 @@ h2{
 }
 .container{
   padding:5px 5px 0px 5px;
-}
-#content{
-  padding:0px 0px 100px 0px;
 }
